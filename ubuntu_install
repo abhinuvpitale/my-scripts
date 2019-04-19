@@ -4,3 +4,6 @@ sudo apt install curl
 sudo apt install git
 sudo apt install vim
 sudo apt-get install nmap
+
+git config --global user.email "abhinuvpitale@gmail.com"
+git config --global user.name "abhinuv-dev-auto"
