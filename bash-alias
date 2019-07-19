@@ -1,6 +1,11 @@
 alias l='ls'
-alias ll='ls -l'
+alias ll='ls -FGlAhps '
 alias c='clear'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias update='sudo apt-get update -y && sudo apt-get upgrade'
+alias ...='cd ../../'                       # Go back 2 directory levels
+alias .3='cd ../../../'                     # Go back 3 directory levels
+alias .4='cd ../../../../'                  # Go back 4 directory levels
+alias .5='cd ../../../../../'               # Go back 5 directory levels
+alias .6='cd ../../../../../../'
